@@ -1,0 +1,100 @@
+
+/* common css start */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arimo&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    border-top: 4px solid #aae4fa;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+   display: flex;
+   flex-wrap: wrap;
+}
+.section-heading{
+    text-align: center;
+    padding-top: 123px;
+}
+.section-heading h2{
+    font-size: 32px;
+    font-family: 'Abril Fatface', serif;
+}
+.section-heading img{
+    padding: 20px 0;
+}
+.section-heading p{
+    width: 562px;
+    margin: auto;
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif; 
+    color: #444444;
+}
+
+/* common css end */
+
+/* nav start  */
+nav{
+    background-color: #fdf7ff;
+}
+.bar{
+    justify-content: space-between;
+    align-items: end;
+}
+.bar ul li{
+    display: inline-block;
+    padding: 0 29px;
+}
+.bar ul li a{
+    color: #848484;
+    font-size: 20px;
+}
+.bar ul li a:hover{
+    color: #00b8ef;
+}
+.bar .btn{
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 22px;
+    background:linear-gradient(to right,  #02b9ef, #56d1f5);
+    border-radius: 8px;
+    border: none;
+}
+/* nev end */
+
+/* banner start */
+.banner{
+    background-image: url(./Image/banner-img.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 560px;
+    background-color: #fdf7ff;
+}
+.banner .contant{
+    width: 45%;
+    padding: 175px 0;
+}
+.banner .contant h1{
+    font-size: 58px;
+    font-family: 'Abril Fatface', serif;
+}
+.banner .contant p{
+    font-size: 18px;
+    font-family: 'Arimo', sans-serif;
+    margin-top: 20px;
+    color: #444444;
+}
+/* banner end */
